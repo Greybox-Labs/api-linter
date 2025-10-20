@@ -18,7 +18,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aep-dev/api-linter/rules/internal/testutils"
+	"github.com/Greybox-Labs/api-linter/rules/internal/testutils"
 	"github.com/google/go-cmp/cmp"
 	apb "google.golang.org/genproto/googleapis/api/annotations"
 )

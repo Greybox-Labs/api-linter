@@ -1,4 +1,4 @@
-module github.com/aep-dev/api-linter
+module github.com/Greybox-Labs/api-linter
 
 go 1.24.0
 
@@ -7,6 +7,7 @@ require (
 	buf.build/gen/go/aep/api/protocolbuffers/go v1.36.10-20251016045117-f9844266f27f.1
 	buf.build/go/bufplugin v0.9.0
 	cloud.google.com/go/longrunning v0.7.0
+	github.com/aep-dev/api-linter v0.0.0-20251018233308-525ea2494cf3
 	github.com/bmatcuk/doublestar/v4 v4.9.1
 	github.com/gertd/go-pluralize v0.2.1
 	github.com/google/go-cmp v0.7.0

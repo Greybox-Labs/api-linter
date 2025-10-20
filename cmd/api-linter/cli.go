@@ -22,7 +22,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/aep-dev/api-linter/internal"
+	"github.com/Greybox-Labs/api-linter/internal"
 	"github.com/aep-dev/api-linter/lint"
 	"github.com/jhump/protoreflect/desc"
 	"github.com/jhump/protoreflect/desc/protoparse"

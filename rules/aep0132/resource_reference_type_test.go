@@ -17,7 +17,7 @@ package aep0132
 import (
 	"testing"
 
-	"github.com/aep-dev/api-linter/rules/internal/testutils"
+	"github.com/Greybox-Labs/api-linter/rules/internal/testutils"
 )
 
 func TestResourceReferenceType(t *testing.T) {
@@ -30,8 +30,8 @@ option (google.api.resource) = {
 
 	// Set up testing permutations.
 	tests := []struct {
-		testName string
-		TypeName string
+		testName           string
+		TypeName           string
 		ResourceAnnotation string
 		problems           testutils.Problems
 	}{

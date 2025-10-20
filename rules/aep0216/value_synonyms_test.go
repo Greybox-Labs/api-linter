@@ -17,7 +17,7 @@ package aep0216
 import (
 	"testing"
 
-	"github.com/aep-dev/api-linter/rules/internal/testutils"
+	"github.com/Greybox-Labs/api-linter/rules/internal/testutils"
 )
 
 func TestValueSynonyms(t *testing.T) {
