@@ -16,22 +16,22 @@ package aep0132
 
 import (
 	"bitbucket.org/creachadair/stringset"
+	"github.com/Greybox-Labs/api-linter/rules/internal/utils"
 	"github.com/aep-dev/api-linter/lint"
-	"github.com/aep-dev/api-linter/rules/internal/utils"
 	"github.com/jhump/protoreflect/desc"
 )
 
 var allowedFields = stringset.New(
-	"parent",       // AEP-132
-	"max_page_size",    // AEP-158
-	"page_token",   // AEP-158
-	"skip",         // AEP-158
-	"filter",       // AEP-132
-	"order_by",     // AEP-132
-	"show_deleted", // AEP-135
-	"request_id",   // AEP-155
-	"read_mask",    // AEP-157
-	"view",         // AEP-157
+	"parent",        // AEP-132
+	"max_page_size", // AEP-158
+	"page_token",    // AEP-158
+	"skip",          // AEP-158
+	"filter",        // AEP-132
+	"order_by",      // AEP-132
+	"show_deleted",  // AEP-135
+	"request_id",    // AEP-155
+	"read_mask",     // AEP-157
+	"view",          // AEP-157
 )
 
 // List methods should not have unrecognized fields.

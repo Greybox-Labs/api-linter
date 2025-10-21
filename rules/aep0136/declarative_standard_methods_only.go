@@ -18,8 +18,8 @@ import (
 	"strings"
 
 	"bitbucket.org/creachadair/stringset"
+	"github.com/Greybox-Labs/api-linter/rules/internal/utils"
 	"github.com/aep-dev/api-linter/lint"
-	"github.com/aep-dev/api-linter/rules/internal/utils"
 	"github.com/jhump/protoreflect/desc"
 )
 
